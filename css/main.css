@@ -1,0 +1,97 @@
+@font-face{font-family: 'robotolight ';src:url( '../fonts/roboto-light-webfont.eot ');src:url( '../fonts/roboto-light-webfont.eot ?#iefix ') format( 'embedded-opentype '),url( '../fonts/roboto-light-webfont.woff2 ') format( 'woff2 '),url( '../fonts/roboto-light-webfont.woff ') format( 'woff '),url( '../fonts/roboto-light-webfont.ttf ') format( 'truetype '),url( '../fonts/roboto-light-webfont.svg#robotolight ') format( 'svg ');font-weight:normal;font-style:normal;}
+@font-face{font-family: 'robotomedium ';src:url( '../fonts/roboto-medium-webfont.eot ');src:url( '../fonts/roboto-medium-webfont.eot ?#iefix ') format( 'embedded-opentype '),url( '../fonts/roboto-medium-webfont.woff2 ') format( 'woff2 '),url( '../fonts/roboto-medium-webfont.woff ') format( 'woff '),url( '../fonts/roboto-medium-webfont.ttf ') format( 'truetype '),url( '../fonts/roboto-medium-webfont.svg#robotomedium ') format( 'svg ');font-weight:normal;font-style:normal;}
+body{font-family: 'robotolight ';font-size:14px;color:#464646;}
+a,a:hover,a:visited{text-decoration:none;}
+header{background:#0071b8;min-height:42px;color:#fff;text-transform:uppercase;padding-top:3px;padding-bottom:3px;}
+header a{color:#fff;font-family: 'robotomedium ';font-size:14px;}
+header a >i{color:#b6b6b6;vertical-align:middle;margin-right:10px;}
+#wrap{background:#e2e2e2;overflow: hidden;}
+#main{background:#000;color:#c2c2c2;width:41.66666667%;float:left;}
+#photo .col-xs-12{padding-left:0;padding-right:0;margin-bottom:10px;}
+#photo img{}
+#photo-rating{position:absolute;top:15px;left:15px;color:#308bc6;}
+#photo-info{margin-top:10px;margin-bottom:10px;}
+#carousel{margin-left:1px;margin-right:1px;}
+#carousel .col-xs-4{padding-left:1px;padding-right:1px;}
+#indicators{margin-top:10px;padding-left:0;}
+#indicators li{display:inline-block;width:10px;height:10px;margin:1px;text-indent:-999px;cursor:pointer;background-color:rgba(0,0,0,0);border:1px solid #718377;border-radius:10px;}
+#indicators li.active{width:12px;height:12px;margin:0;background-color:#cdcdcd;}
+#action{padding-left:15px;padding-right:15px;}
+.carousel-indicators{position:relative;bottom:0;}
+.carousel-inner .col-xs-4{padding-left:1px;padding-right:1px;}
+#download{background:#f5d53d;border-radius:0;color:#212121;}
+#download i{color:#212121;}
+#action{background:#333333;color:#d7d7d7;padding-bottom:10px;padding-top:10px;}
+#action-info{margin-bottom:10px;}
+#action-info a{color:#d7d7d7;}
+#action-info span{color:#f5d53d;}
+#action-info i{color:#a2a2a2;vertical-align:middle;}
+#location{font-size:13px;}
+#locations i{font-size:28px;}
+#distance{color:#e1e1e1;font-size:13px;}
+#distance i{margin-top:5px;font-size:18px;color:#e1e1e1;vertical-align:sub;}
+#info{background:#e2e2e2;float: left;width:58.33333333%;}
+#info-header{background:#d7d7d7;padding-left:15px;padding-right:15px;padding-top:5px;padding-bottom:5px;}
+#author-img{border:2px solid #f1f1f1;width:36px;}
+#others .row,#related .row{margin-top:15px;padding-left:10px;padding-right:10px;}
+#info-box,#rate,#others{border-bottom:1px solid #c5c5c5;}
+#others .col-xs-4,#related .col-xs-4{padding-left:5px;padding-right:5px;}
+#info-box,#rate,#others,#related{margin-left:15px;margin-right:15px;}
+.more{background:#999;padding:2px 14px;color:#fff;}
+.more:hover,.morea.visited{background:#308bc6;color:#fff;}
+.thumbnail{background:#eee;border-radius:0;}
+.thumbnail .caption{padding:5px;}
+.box{margin-left:-5px;margin-right:-5px;}
+#info-box{padding-bottom:10px;}
+#info-box i{color:#a7a7a7;font-size:36px;}
+#rate{padding-top:15px;padding-bottom:15px;}
+#rate i{color:#a4a4a4;font-size:20px;vertical-align:middle;}
+#rate span{font-family: 'robotomedium ';font-size:18px;color:#000;}
+#collapse{margin-top:-10px;}
+#author{font-family: 'robotomedium ';font-size:15px;}
+#lang{margin-top:5px;}
+h1,h2,h3,h4,h5,h6{font-family: 'robotomedium ';}
+@media screen and (min-aspect-ratio:1/1) and (min-width:400px){
+    #container-outer {
+        float:left;
+        overflow: hidden;
+        background: #e2e2e2;
+    }
+    #container-inner {
+        float:left;
+        background: #000;
+        position: relative;
+        right:58.33333333%;
+    }
+    #main {
+        float: left;
+        width: 41.66666667%;
+        position: relative;
+        left: 58.33333333%;
+    }
+    #info {
+        float: left;
+        width: 58.33333333%;
+        position: relative;
+        left: 58.33333333%;
+    }
+}
+@media screen and (orientation:portrait){
+    #container-outer {
+        float:left;
+        overflow: hidden;
+        background: #e2e2e2;
+    }
+    #container-inner {
+        float:left;
+        background: #000;
+    }
+    #main {
+        float: left;
+        width: 100%;
+    }
+    #info {
+        float: left;
+        width: 100%;
+    }
+}

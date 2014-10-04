@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Tour</title>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="#">
+                            <i class="fa fa-angle-left fa-3x"></i>Название Экскурсии
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="container-outer">
+            <div id="container-inner">
+                <aside id="main">
+                    <div id="photo" class="">
+                        <div class="col-xs-12">
+                            <img src="images/main_image.jpg" class="img-responsive">
+                            <div id="photo-rating">
+                                <i class="fa fa-star fa-lg"></i>
+                                <i class="fa fa-star fa-lg"></i>
+                                <i class="fa fa-star fa-lg"></i>
+                                <i class="fa fa-star-half-o fa-lg"></i>
+                                <i class="fa fa-star-o fa-lg"></i>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div id="photo-info">
+                        <div class="col-xs-12">
+                            <p class="pull-right"><i class="fa fa-clock-o fa-lg"></i> 1:45</p>
+                            <p>Назание улицы, дом №9</p>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div id="carousel">
+                        <div class="col-xs-4">
+                            <a href="#"><img src="http://placehold.it/250x200&text=1" alt="Image" style="max-width:100%;"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#"><img src="http://placehold.it/250x200&text=2" alt="Image" style="max-width:100%;"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#"><img src="http://placehold.it/250x200&text=3" alt="Image" style="max-width:100%;"></a>
+                        </div>
+                        <div class="col-xs-12 text-center">
+                            <ol id="indicators">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="action" class="col-xs-12">
+                        <div id="action-info">
+                            <a href="#" id="locations">В составе маршрутов <span>(6)</span> <i class="fa fa-angle-right"></i></a>
+                            <a href="#" class="pull-right" id="distance"><i class="fa fa-map-marker"></i> 4500 m</a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <a class="btn btn-block" id="download"><i class="fa fa-download fa-lg"></i> Загрузить</a>
+                    </div>
+                </aside>
+                <section id="info">
+                    <div id="info-header">
+                        <div>
+                            <div id="lang" class="pull-right">
+                                выбрать язык:
+                                <select>
+                                    <option value="ru">Русский</option>
+                                </select>
+                            </div>
+                            <div id="author">
+                                <img class="img-circle" id="author-img" src="images/author.jpg" />
+                                Name@bbb.ru
+                            </div>
+                            <div class="clearfix"></div>                    
+                        </div>                
+                    </div>
+                    <div id="info-box">
+                        <h3>Полное название экскурсии.  Длина и количество строк не ограничены.</h3>
+                        <p>Краткое описание экскурсии (анонс), составленное старательным и трудолюбивым автором в редакторе при создании клипа</p>
+                        <a href="#" id="collapse" class="pull-right"><i class="fa fa-angle-down fa-lg"></i></a>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="rate">
+                        <i class="fa fa-star"></i> Средняя оценка: <span>3,6</span>
+                    </div>
+                    <div id="others">
+                        <div class="head">
+                            <a href="#" class="more pull-right">Ещё</a>
+                            <h4>Другие экскурсии автора</h4>
+                        </div>
+                        <div class="box">
+                            <div class="col-xs-4">
+                                <a class="thumbnail" href="#">
+                                    <img data-src="holder.js/300x300" alt="..." class="img-responsive" src="images/item1.jpg">
+                                    <div class="caption">
+                                        Название экскурсии
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a class="thumbnail" href="#">
+                                    <img data-src="holder.js/300x300" alt="..." class="img-responsive" src="images/item2.jpg">
+                                    <div class="caption">
+                                        Название экскурсии
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a class="thumbnail" href="#">
+                                    <img data-src="holder.js/300x300" alt="..." class="img-responsive" src="images/item3.jpg">
+                                    <div class="caption">
+                                        Название экскурсии
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="related">
+                        <div class="head">
+                            <a href="#" class="more pull-right">Ещё</a>
+                            <h4>Похожие экскурсии</h4>
+                        </div>
+                        <div class="box">
+                            <div class="col-xs-4">
+                                <a class="thumbnail" href="#">
+                                    <img data-src="holder.js/300x300" alt="..." class="img-responsive" src="images/item1.jpg">
+                                    <div class="caption">
+                                        Название экскурсии
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a class="thumbnail" href="#">
+                                    <img data-src="holder.js/300x300" alt="..." class="img-responsive" src="images/item2.jpg">
+                                    <div class="caption">
+                                        Название экскурсии
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a class="thumbnail" href="#">
+                                    <img data-src="holder.js/300x300" alt="..." class="img-responsive" src="images/item3.jpg">
+                                    <div class="caption">
+                                        Название экскурсии
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
